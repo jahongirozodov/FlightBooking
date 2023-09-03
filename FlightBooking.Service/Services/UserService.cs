@@ -1,7 +1,10 @@
 ﻿using AutoMapper;
+using FlightBooking.Data.IRepository;
 using FlightBooking.Domain.Entities;
+using FlightBooking.Service.DTOs;
+using FlightBooking.Service.Exceptions;
 using FlightBooking.Service.Interfaces;
-using Telegram.Service.Interfaces;
+using FlightBooking.Service.Security;
 
 namespace FlightBooking.Service.Services;
 
