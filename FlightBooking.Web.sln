@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33627.172
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightBooking.Web", "FlightBooking.Web\FlightBooking.Web.csproj", "{A74CCFEF-DCCA-4688-9350-91C84D5352CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlightBooking.Web", "FlightBooking.Web\FlightBooking.Web.csproj", "{A74CCFEF-DCCA-4688-9350-91C84D5352CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightBooking.Domain", "FlightBooking.Domain\FlightBooking.Domain.csproj", "{426F84B1-6FFC-48F1-8E5E-BCD1C914F7FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlightBooking.Domain", "FlightBooking.Domain\FlightBooking.Domain.csproj", "{426F84B1-6FFC-48F1-8E5E-BCD1C914F7FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightBooking.Data", "FlightBooking.Data\FlightBooking.Data.csproj", "{A7A58218-0E39-4C89-9AF4-FE100AC8C436}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlightBooking.Data", "FlightBooking.Data\FlightBooking.Data.csproj", "{A7A58218-0E39-4C89-9AF4-FE100AC8C436}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightBooking.Service", "FlightBooking.Service\FlightBooking.Service.csproj", "{BD0DCF12-8056-48F6-922B-A915B672A365}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlightBooking.Service", "FlightBooking.Service\FlightBooking.Service.csproj", "{BD0DCF12-8056-48F6-922B-A915B672A365}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

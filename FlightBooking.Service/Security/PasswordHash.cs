@@ -1,4 +1,6 @@
-﻿namespace FlightBooking.Service.Security;
+﻿using BCrypt.Net;
+
+namespace FlightBooking.Service.Security;
 
 public static class PasswordHash
 {
