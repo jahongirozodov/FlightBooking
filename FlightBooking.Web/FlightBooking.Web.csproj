@@ -30,4 +30,8 @@
     <ProjectReference Include="..\FlightBooking.Service\FlightBooking.Service.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Views\Flight\" />
+  </ItemGroup>
+
 </Project>

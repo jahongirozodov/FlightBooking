@@ -16,19 +16,6 @@ namespace FlightBooking.Web.Controllers
             this.userService = userService;
         }
 
-        [HttpGet]
-        public IActionResult Register()
-        {
-            return View();  
-        }
-
-        [HttpPost]
-        public IActionResult Register(UserRegisterDto dto)
-        {
-            var user = userService.RegisterAsync(dto);
-            return View();
-        }
-
         public IActionResult Index()
         {
             return View();

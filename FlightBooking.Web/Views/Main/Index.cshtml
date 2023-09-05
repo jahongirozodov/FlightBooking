@@ -1,11 +1,8 @@
-﻿@page
-
-@*@using FlightBooking.Service.DTOs;
-@{
-    ViewData["Title"] = "Home";
-}
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
-
+@{
+}
 <body class="bg-image" style="background-image: url('https://www.uzairways.com/themes/uzairways/images/sc3.png'); height: 100vh">
     <header>
         <!-- Navbar -->
@@ -14,7 +11,7 @@
         </style>
 
 
-        <nav class= "navbar navbar-expand-lg navbar-light" style="background-color: #30A2FF; color:black; opacity:90%; font-family:'Roboto', sans-serif;">
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #30A2FF; color:black; opacity:90%; font-family:'Roboto', sans-serif;">
             <!-- Container wrapper -->
             <div class="container-fluid">
                 <!-- Navbar brand -->
@@ -66,16 +63,11 @@
                     <!-- Left links -->
 
                     <div class="d-flex align-items-center">
-                            <form  asp-controller="User" asp-action="Index" method="get">
-                                <button type="submit" class="btn btn-primary">
-                                    Register
-                                </button>
-                            </form>
-                            <form asp-controller="User" asp-action="Login">
-                                <button type="button" class="btn btn-link px-3 me-2 text-decoration-none" style="color:rgba(0,0,0,0.6)">
-                                    Login
-                                </button>
-                            </form>
+                        <form asp-controller="Home" asp-action="Index" method="get">
+                            <button type="submit" class="btn btn-primary">
+                                LogOut
+                            </button>
+                        </form>
                     </div>
                     <i class="flag flag-united-states"></i>
                 </div>
